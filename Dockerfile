@@ -3,7 +3,7 @@ MAINTAINER windfarer
 
 ADD https://github.com/xtaci/kcptun/releases/download/v20160701/kcptun-linux-amd64-20160701.tar.gz /app/
 RUN cd /app && tar zxvf kcptun-linux-amd64-20160701.tar.gz
-WORKDIR /app/kcptun-linux-amd64-20160701
+WORKDIR /app
 
 EXPOSE 554
 
