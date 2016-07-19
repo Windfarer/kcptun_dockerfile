@@ -1,0 +1,1 @@
+./server_linux_amd64 -t "${PROXY_HOST}:${PROXY_PORT}" -l "${KCP_SERVER_HOST}:${KCP_SERVER_PORT}" -mode fast2
